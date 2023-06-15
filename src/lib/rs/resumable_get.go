@@ -1,8 +1,8 @@
 package rs
 
 import (
+	"Distributed_Storage_Deploy/src/lib/objectstream"
 	"io"
-	"lib/objectstream"
 )
 
 type RSResumableGetStream struct {

@@ -5,6 +5,8 @@ import (
 	"github.com/streadway/amqp"
 )
 
+const RABBITMQ_SERVER = "localhost:5672"
+
 type RabbitMQ struct {
 	channel  *amqp.Channel
 	conn     *amqp.Connection

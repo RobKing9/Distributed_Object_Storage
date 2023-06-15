@@ -1,12 +1,12 @@
 package rs
 
 import (
+	"Distributed_Storage_Deploy/src/lib/objectstream"
+	"Distributed_Storage_Deploy/src/lib/utils"
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
 	"io"
-	"lib/objectstream"
-	"lib/utils"
 	"log"
 	"net/http"
 )

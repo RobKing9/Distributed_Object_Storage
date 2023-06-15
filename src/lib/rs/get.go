@@ -1,9 +1,9 @@
 package rs
 
 import (
+	"Distributed_Storage_Deploy/src/lib/objectstream"
 	"fmt"
 	"io"
-	"lib/objectstream"
 )
 
 type RSGetStream struct {
