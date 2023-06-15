@@ -1,10 +1,5 @@
 # 分布式对象存储项目
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
 ## ✨ 项目功能
 
 - [x] 🚀 分布式存储，自由扩展节点
