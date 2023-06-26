@@ -1,8 +1,8 @@
 package objects
 
 import (
-	"Distributed_Storage_Deploy/apiServer/locate"
-	"Distributed_Storage_Deploy/src/lib/utils"
+	"Distributed_Object_Storage/apiServer/locate"
+	"Distributed_Object_Storage/src/lib/utils"
 	"fmt"
 	"io"
 	"net/http"

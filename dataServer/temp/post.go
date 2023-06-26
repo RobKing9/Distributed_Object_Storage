@@ -17,6 +17,7 @@ type tempInfo struct {
 }
 
 func post(w http.ResponseWriter, r *http.Request) {
+	// uuidgen 是一个在 Unix/Linux 系统中可用的命令行工具，用于生成 UUID
 	output, _ := exec.Command("uuidgen").Output()
 	uuid := strings.TrimSuffix(string(output), "\n")
 	name := strings.Split(r.URL.EscapedPath(), "/")[2]

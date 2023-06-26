@@ -5,181 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9292b6c9-38e3-4648-8da4-5c16eb3cf83e" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/dataServer/dataServer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataServer/objects/get.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataServer/objects/get_object.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataServer/objects/send.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/objects/get.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/objects/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/objects/put.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/apiServer/apiServer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/apiServer/heartbeat/choose.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/apiServer/heartbeat/heartbeat.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/apiServer/locate/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/apiServer/locate/locate.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/apiServer/objects/get.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/apiServer/objects/get_stream.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/apiServer/objects/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/apiServer/objects/put.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/apiServer/objects/put_stream.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/apiServer/objects/store.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/dataServer/dataServer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/dataServer/heartbeat/heartbeat.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/dataServer/locate/locate.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/dataServer/objects" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/test/put.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/apiServer/apiServer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/apiServer/heartbeat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/apiServer/locate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/apiServer/objects/del.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/apiServer/objects/get.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/apiServer/objects/get_stream.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/apiServer/objects/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/apiServer/objects/put.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/apiServer/objects/put_stream.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/apiServer/objects/store.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/apiServer/versions/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/dataServer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/test/put.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/test/putmapping.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/apiServer/apiServer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/apiServer/heartbeat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/apiServer/locate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/apiServer/objects/del.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/apiServer/objects/get.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/apiServer/objects/get_stream.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/apiServer/objects/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/apiServer/objects/put.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/apiServer/objects/put_stream.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/apiServer/objects/store.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/apiServer/versions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/dataServer/dataServer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/dataServer/heartbeat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/dataServer/locate/locate.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/dataServer/objects/get.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/dataServer/objects/get_object.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/dataServer/objects/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/dataServer/objects/send.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/dataServer/temp/commit.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/dataServer/temp/del.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/dataServer/temp/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/dataServer/temp/patch.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/dataServer/temp/post.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/dataServer/temp/put.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/test/put.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/apiServer/apiServer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/apiServer/heartbeat/choose.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/apiServer/heartbeat/heartbeat.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/apiServer/locate/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/apiServer/locate/locate.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/apiServer/objects/del.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/apiServer/objects/get.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/apiServer/objects/get_stream.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/apiServer/objects/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/apiServer/objects/put.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/apiServer/objects/put_stream.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/apiServer/objects/store.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/apiServer/versions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/dataServer/dataServer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/dataServer/heartbeat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/dataServer/locate/locate.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/dataServer/objects/get.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/dataServer/objects/get_object.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/dataServer/objects/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/dataServer/objects/send.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/dataServer/temp/commit.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/dataServer/temp/del.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/dataServer/temp/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/dataServer/temp/patch.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/dataServer/temp/post.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/dataServer/temp/put.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/test/put.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/apiServer/apiServer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/apiServer/heartbeat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/apiServer/locate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/apiServer/objects/del.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/apiServer/objects/get.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/apiServer/objects/get_stream.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/apiServer/objects/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/apiServer/objects/post.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/apiServer/objects/put.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/apiServer/objects/put_stream.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/apiServer/objects/store.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/apiServer/temp/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/apiServer/temp/head.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/apiServer/temp/put.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/apiServer/versions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/dataServer/dataServer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/dataServer/heartbeat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/dataServer/locate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/dataServer/objects" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/dataServer/temp/commit.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/dataServer/temp/del.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/dataServer/temp/get.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/dataServer/temp/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/dataServer/temp/head.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/dataServer/temp/patch.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/dataServer/temp/post.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/dataServer/temp/put.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/test/genFile.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/test/getToken.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/test/put.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/apiServer/apiServer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/apiServer/heartbeat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/apiServer/locate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/apiServer/objects/del.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/apiServer/objects/get.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/apiServer/objects/get_stream.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/apiServer/objects/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/apiServer/objects/post.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/apiServer/objects/put.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/apiServer/objects/put_stream.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/apiServer/objects/store.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/apiServer/temp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/apiServer/versions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/dataServer/dataServer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/dataServer/heartbeat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/dataServer/locate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/dataServer/objects/get.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/dataServer/objects/get_object.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/dataServer/objects/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/dataServer/objects/send.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/dataServer/temp/commit.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/dataServer/temp/del.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/dataServer/temp/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/dataServer/temp/patch.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/dataServer/temp/post.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/dataServer/temp/put.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/test/genFile.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/test/put.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/apiServer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/dataServer/dataServer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/dataServer/heartbeat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/dataServer/locate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/dataServer/objects/del.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataServer/objects/del.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/dataServer/objects/get.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/dataServer/objects/get_object.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/dataServer/objects/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataServer/objects/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/dataServer/objects/send.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/dataServer/temp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/deleteOldMetadata/deleteOldMetadata.go" beforeDir="false" afterPath="$PROJECT_DIR$/deleteOldMetadata/deleteOldMetadata.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/deleteOrphanObject/deleteOrphanObject.go" beforeDir="false" afterPath="$PROJECT_DIR$/deleteOrphanObject/deleteOrphanObject.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/objectScanner/objectScanner.go" beforeDir="false" afterPath="$PROJECT_DIR$/objectScanner/objectScanner.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/test/put.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test/put.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/rabbitmq/rabbitmq.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/rabbitmq/rabbitmq.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/rs/get.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/rs/get.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/rs/put.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/rs/put.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/rs/resumable_get.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/rs/resumable_get.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/rs/resumable_put.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/rs/resumable_put.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiServer/heartbeat/choose.go" beforeDir="false" afterPath="$PROJECT_DIR$/apiServer/heartbeat/choose.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiServer/heartbeat/heartbeat.go" beforeDir="false" afterPath="$PROJECT_DIR$/apiServer/heartbeat/heartbeat.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiServer/versions/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/apiServer/versions/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataServer/locate/locate.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataServer/locate/locate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataServer/temp/post.go" beforeDir="false" afterPath="$PROJECT_DIR$/dataServer/temp/post.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redis/redis.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/redis/redis.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../go1.18/go" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../go1.20" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -194,23 +41,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;configurable..is.expanded&quot;: &quot;false&quot;,
-    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/robking/AGolang/src/Distributed_Storage_Deploy&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;go.vgo&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "configurable..is.expanded": "false",
+    "configurable.GoLibrariesConfigurable.is.expanded": "true",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "D:/AGolang/main",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Go"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chapter8/dataServer/objects" />
@@ -224,9 +73,19 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="go build Distributed_Storage_Deploy/apiServer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build " type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="Distributed_Storage_Deploy" />
       <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
       <kind value="PACKAGE" />
       <package value="Distributed_Storage_Deploy/apiServer" />
       <directory value="$PROJECT_DIR$" />
@@ -235,7 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build Distributed_Storage_Deploy/apiServer" />
+        <item itemvalue="Go 构建.go build " />
       </list>
     </recent_temporary>
   </component>

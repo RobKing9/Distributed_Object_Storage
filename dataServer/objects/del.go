@@ -1,7 +1,7 @@
 package objects
 
 import (
-	"Distributed_Storage_Deploy/dataServer/locate"
+	"Distributed_Object_Storage/dataServer/locate"
 	"net/http"
 	"os"
 	"path/filepath"

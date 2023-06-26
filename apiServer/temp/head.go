@@ -1,7 +1,7 @@
 package temp
 
 import (
-	"Distributed_Storage_Deploy/src/lib/rs"
+	"Distributed_Object_Storage/src/lib/rs"
 	"fmt"
 	"log"
 	"net/http"

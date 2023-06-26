@@ -1,11 +1,11 @@
 package main
 
 import (
-	"Distributed_Storage_Deploy/apiServer/heartbeat"
-	"Distributed_Storage_Deploy/apiServer/locate"
-	"Distributed_Storage_Deploy/apiServer/objects"
-	"Distributed_Storage_Deploy/apiServer/temp"
-	"Distributed_Storage_Deploy/apiServer/versions"
+	"Distributed_Object_Storage/apiServer/heartbeat"
+	"Distributed_Object_Storage/apiServer/locate"
+	"Distributed_Object_Storage/apiServer/objects"
+	"Distributed_Object_Storage/apiServer/temp"
+	"Distributed_Object_Storage/apiServer/versions"
 	"log"
 	"net/http"
 )

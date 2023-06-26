@@ -1,8 +1,8 @@
 package temp
 
 import (
-	"Distributed_Storage_Deploy/dataServer/locate"
-	"Distributed_Storage_Deploy/src/lib/utils"
+	"Distributed_Object_Storage/dataServer/locate"
+	"Distributed_Object_Storage/src/lib/utils"
 	"compress/gzip"
 	"io"
 	"net/url"

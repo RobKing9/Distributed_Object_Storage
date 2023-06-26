@@ -1,8 +1,8 @@
 package locate
 
 import (
-	"Distributed_Storage_Deploy/src/lib/rabbitmq"
-	"Distributed_Storage_Deploy/src/lib/types"
+	"Distributed_Object_Storage/src/lib/rabbitmq"
+	"Distributed_Object_Storage/src/lib/types"
 	"os"
 	"path/filepath"
 	"strconv"
@@ -10,6 +10,7 @@ import (
 	"sync"
 )
 
+// map的 key存放 对象的散列值，value 存放分片id
 var objects = make(map[string]int)
 var mutex sync.Mutex
 

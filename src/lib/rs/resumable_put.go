@@ -1,8 +1,8 @@
 package rs
 
 import (
-	"Distributed_Storage_Deploy/src/lib/objectstream"
-	"Distributed_Storage_Deploy/src/lib/utils"
+	"Distributed_Object_Storage/src/lib/objectstream"
+	"Distributed_Object_Storage/src/lib/utils"
 	"encoding/base64"
 	"encoding/json"
 	"fmt"

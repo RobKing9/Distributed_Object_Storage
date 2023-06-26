@@ -1,7 +1,7 @@
 package versions
 
 import (
-	"Distributed_Storage_Deploy/src/lib/es"
+	"Distributed_Object_Storage/src/lib/es"
 	"encoding/json"
 	"log"
 	"net/http"
@@ -18,6 +18,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	size := 1000
 	name := strings.Split(r.URL.EscapedPath(), "/")[2]
 	for {
+		// 查找所有的版本
 		metas, e := es.SearchAllVersions(name, from, size)
 		if e != nil {
 			log.Println(e)
@@ -25,6 +26,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 		for i := range metas {
+			// 每一项结果 通过json写入到响应中
 			b, _ := json.Marshal(metas[i])
 			w.Write(b)
 			w.Write([]byte("\n"))

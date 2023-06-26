@@ -1,7 +1,7 @@
 package heartbeat
 
 import (
-	"Distributed_Storage_Deploy/src/lib/rabbitmq"
+	"Distributed_Object_Storage/src/lib/rabbitmq"
 	"os"
 	"time"
 )

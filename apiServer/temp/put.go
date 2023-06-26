@@ -1,10 +1,10 @@
 package temp
 
 import (
-	"Distributed_Storage_Deploy/apiServer/locate"
-	"Distributed_Storage_Deploy/src/lib/es"
-	"Distributed_Storage_Deploy/src/lib/rs"
-	"Distributed_Storage_Deploy/src/lib/utils"
+	"Distributed_Object_Storage/apiServer/locate"
+	"Distributed_Object_Storage/src/lib/es"
+	"Distributed_Object_Storage/src/lib/rs"
+	"Distributed_Object_Storage/src/lib/utils"
 	"io"
 	"log"
 	"net/http"

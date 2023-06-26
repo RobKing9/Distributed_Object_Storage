@@ -4,6 +4,8 @@ import (
 	"math/rand"
 )
 
+// 随机选择一个数据节点
+
 func ChooseRandomDataServers(n int, exclude map[int]string) (ds []string) {
 	candidates := make([]string, 0)
 	reverseExcludeMap := make(map[string]int)

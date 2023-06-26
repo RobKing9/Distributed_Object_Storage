@@ -1,9 +1,9 @@
 package objects
 
 import (
-	"Distributed_Storage_Deploy/apiServer/heartbeat"
-	"Distributed_Storage_Deploy/apiServer/locate"
-	"Distributed_Storage_Deploy/src/lib/rs"
+	"Distributed_Object_Storage/apiServer/heartbeat"
+	"Distributed_Object_Storage/apiServer/locate"
+	"Distributed_Object_Storage/src/lib/rs"
 	"fmt"
 )
 

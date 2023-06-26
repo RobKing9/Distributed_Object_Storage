@@ -1,10 +1,10 @@
 package main
 
 import (
-	"Distributed_Storage_Deploy/dataServer/heartbeat"
-	"Distributed_Storage_Deploy/dataServer/locate"
-	"Distributed_Storage_Deploy/dataServer/objects"
-	"Distributed_Storage_Deploy/dataServer/temp"
+	"Distributed_Object_Storage/dataServer/heartbeat"
+	"Distributed_Object_Storage/dataServer/locate"
+	"Distributed_Object_Storage/dataServer/objects"
+	"Distributed_Object_Storage/dataServer/temp"
 	"log"
 	"net/http"
 	"os"

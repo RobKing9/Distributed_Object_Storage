@@ -1,9 +1,9 @@
 package locate
 
 import (
-	"Distributed_Storage_Deploy/src/lib/rabbitmq"
-	"Distributed_Storage_Deploy/src/lib/rs"
-	"Distributed_Storage_Deploy/src/lib/types"
+	"Distributed_Object_Storage/src/lib/rabbitmq"
+	"Distributed_Object_Storage/src/lib/rs"
+	"Distributed_Object_Storage/src/lib/types"
 	"encoding/json"
 	"os"
 	"time"

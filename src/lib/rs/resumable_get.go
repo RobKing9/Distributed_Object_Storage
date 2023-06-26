@@ -1,7 +1,7 @@
 package rs
 
 import (
-	"Distributed_Storage_Deploy/src/lib/objectstream"
+	"Distributed_Object_Storage/src/lib/objectstream"
 	"io"
 )
 

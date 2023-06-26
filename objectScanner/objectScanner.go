@@ -1,9 +1,9 @@
 package main
 
 import (
-	"Distributed_Storage_Deploy/apiServer/objects"
-	"Distributed_Storage_Deploy/src/lib/es"
-	"Distributed_Storage_Deploy/src/lib/utils"
+	"Distributed_Object_Storage/apiServer/objects"
+	"Distributed_Object_Storage/src/lib/es"
+	"Distributed_Object_Storage/src/lib/utils"
 	"log"
 	"os"
 	"path/filepath"

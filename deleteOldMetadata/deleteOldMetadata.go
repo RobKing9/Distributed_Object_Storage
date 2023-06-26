@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Distributed_Storage_Deploy/src/lib/es"
+	"Distributed_Object_Storage/src/lib/es"
 	"log"
 )
 
